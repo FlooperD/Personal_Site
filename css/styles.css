@@ -1,21 +1,28 @@
-#title {
-    font-family: 'Press Start 2P', cursive;
+/* misc */
+
+::selection {
+    color: #2D033B;
+    background-color: #FF6464;
 }
 
-.navbar-brand {
+/* Navbar */
+
+.navbar {
     font-family: 'Press Start 2P', cursive;
-    color: #00FFF6;
-    font-weight: 400;
-    font-size: larger;
 }
 
 .nav-link {
-    color: #00FFF6;
-    font-family: 'Press Start 2P', cursive;
-    font-weight: 100;
-    font-size: small;
+    padding: 0 20% 0 20%;
+    margin: 0 20px 0 20px;
 }
 
+
 body {
-    background-color: #434242;
+    background-color: grey;
 }
+
+/* Text */
+
+
+
+/* Containers */
