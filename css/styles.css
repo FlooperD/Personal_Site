@@ -2,13 +2,19 @@
 
 ::selection {
     color: #2D033B;
-    background-color: #FF6464;
+    background-color: #497174;
 }
 
 /* Navbar */
 
 .navbar {
     font-family: 'Press Start 2P', cursive;
+    background-color: #EB6440;
+    margin: 0;
+}
+
+#phone {
+    scale: 250%;
 }
 
 .nav-link {
@@ -16,6 +22,19 @@
     margin: 0 20px 0 20px;
 }
 
+.navbar-brand {
+    margin: 0 20px 0 20px;
+    font-weight: 700;
+     
+}
+
+.navbar-brand:hover {
+    color: #497174;
+}
+
+.nav-link:hover {
+    color: #497174;
+}
 
 body {
     background-color: grey;
@@ -23,6 +42,8 @@ body {
 
 /* Text */
 
-
+i {
+    width: 20px;
+}
 
 /* Containers */
